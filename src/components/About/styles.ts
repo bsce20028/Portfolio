@@ -47,13 +47,22 @@ export const Container = styled.section`
 
   .about-image{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    img{
      margin-top: 2rem;
-     width: 75%;
+     width: 350px;
+     height: 470px;
+     border-radius: 30%;
+     object-fit: cover;
+     object-position: center;
      filter: grayscale(0);
      transition: filter 0.5s;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
      &:hover{
        filter: grayscale(0);
+       transform: scale(1.05);
      }
    }
   }
@@ -64,7 +73,11 @@ export const Container = styled.section`
       margin-top: 4rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
@@ -82,10 +95,15 @@ export const Container = styled.section`
     }
     .about-image{
       display: flex;
+      justify-content: center;
       max-width: 100%;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{

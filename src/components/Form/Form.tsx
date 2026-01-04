@@ -45,8 +45,8 @@ export function Form() {
   }
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
-      <form onSubmit={handleSubmit}>
+      {/* <h2>Get in touch using the form</h2> */}
+      {/* <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
           id="email"
@@ -84,7 +84,7 @@ export function Form() {
         >
           Submit
         </button>
-      </form>
+      </form> */}
       <ToastContainer />
     </Container>
   )
